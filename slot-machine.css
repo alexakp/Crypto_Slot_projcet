@@ -1,0 +1,138 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#background{
+  width: 100%;
+  height: 100%;
+  background-color: #1a2b45;
+
+  /*Schultz background */
+  /*/
+  background: center / contain no-repeat url("imgs/schultz_pog.jpg"),#1a2b45;
+  background-size: auto; */ 
+
+  position: fixed;
+}
+#app {
+  background-color: #1a4523;
+  
+  position: absolute;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 20%;
+  
+}
+
+.doors {
+  display: flex;
+}
+
+.door {
+  background: #fafafa;
+  width: 100px;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.boxes {
+  transition: transform 1s ease-in-out;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+.tables {
+  color: #fafafa;
+
+  /* Adjust crypto height here */ 
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.sidebar{
+  background-color: #2a2a2a;
+
+  /* Adjust crypto height here */ 
+  margin-top: 200px;
+  width: 227px;
+  height: 650px;
+  text-align: left;
+  justify-content: center;
+  display: flex;
+  border-style: inset;
+}
+
+.buttons {
+  margin: 1rem 0 2rem 0;
+}
+
+button {
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin: 0 0.2rem;
+  border: none;
+  border-radius: 50px;
+  padding: 30px 35px;
+}
+
+.info {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  height: 50px;
+  font-size: 15px;
+}
+
+th {
+  cursor: pointer;
+}
+
+td,th {
+  border-bottom: 1px solid #fafafa;
+  width: 100px;
+  height: 50px;
+}
+td+td {
+  width: auto;
+}
+
+.footer {  
+position: fixed;  
+left: 10px;  
+bottom: 5px;  
+right: 10px;   
+width: 95%;  
+background-color: gray;  
+text-align: center;  
+}  
+
+
+@media (max-width: 880px) {
+  /* desktop CSS: hide .tables div */
+  .tables,.sidebar {
+    display: none
+  }
+}

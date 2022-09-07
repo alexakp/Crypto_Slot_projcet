@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "slot_machine",
+  "version": "1.0.0",
+  "description": "- [ ] Make symbol array larger and randomzie not equal chance: **Medium**\r - [ ] Display bonus on screen / sound when 3 equal symbols: **Medium** \r - [ ] Add custom symbols: **Medium/Hard**\r - [ ] Make from 3 to --> 5 reels: **Easy**\r - [ ] Add bonus etc: **Hard**",
+  "main": "slot-machine-animation.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.uio.no/alexakp/slot-machine-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ws": "^8.8.1"
+  }
+}
