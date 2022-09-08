@@ -91,8 +91,7 @@
   async function spin() {
 
     document.getElementById("spinner").disabled = true;
-    await sleep(1000);
-    document.getElementById("spinner").disabled = false;
+    
     init(false, 1, 2);
     
     for (const door of doors) {
@@ -101,6 +100,8 @@
       boxes.style.transform = 'translateY(0)';
       await new Promise((resolve) => setTimeout(resolve, duration * 100));
     }
+    await sleep(2200);
+    document.getElementById("spinner").disabled = false;
   }
 
   function shuffle([...arr]) {
