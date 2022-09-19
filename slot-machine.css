@@ -17,8 +17,9 @@ body {
 
   position: fixed;
 }
-#app {
-  background-color: #1a4523;
+#playscreen{
+  background-color: black;
+  border-radius: 10px;
   
   position: absolute;
   flex-direction: column;
@@ -31,6 +32,21 @@ body {
   left: 0;
   right: 0;
   top: 20%;
+  
+
+}
+#app {
+  position: absolute;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 30%;
   
 }
 
@@ -130,7 +146,7 @@ text-align: center;
 }  
 
 
-@media (max-width: 880px) {
+@media (max-width: 1370px) {
   /* desktop CSS: hide .tables div */
   .tables,.sidebar {
     display: none

@@ -4,11 +4,18 @@
     '💩',
   ];
   const doors = document.querySelectorAll('.door');
-  
+  let balance_usd = 1000;
+  let bet_size = 100; // 1 5 10 50 100 200 500 1000, groups
+
   document.querySelector('#spinner').addEventListener('click', spin);
 
   function init(firstInit = true, groups = 1, duration = 2) {
   const arrBoxes = []
+
+  let balance = document.getElementById("balance");
+  balance_text = balance.textContent;
+  document.getElementById("balance").textContent = "Balance: " + balance_usd +"$";
+
     for (const door of doors) {
 
       const boxes = door.querySelector('.boxes');
@@ -83,12 +90,15 @@
     if (!firstInit){
       three_bool = three_in_a_row(arrBoxes)
       if (three_bool){
-          console.log("THREE IN A ROW EZ")
+        balance_usd = balance_usd + 1000;
+        console.log("THREE IN A ROW EZ")
       }
     }
   }
 
   async function spin() {
+    // update balance_usd
+    balance_usd = balance_usd - bet_size
 
     document.getElementById("spinner").disabled = true;
     
@@ -101,7 +111,13 @@
       await new Promise((resolve) => setTimeout(resolve, duration * 100));
     }
     await sleep(2200);
-    document.getElementById("spinner").disabled = false;
+    balance_text = balance.textContent;
+    document.getElementById("balance").textContent = "Balance: " + balance_usd +"$";
+
+    // Bet size needs to be smaller than balance
+    if(balance_usd >= bet_size){
+      document.getElementById("spinner").disabled = false;
+    }
   }
 
   function shuffle([...arr]) {
