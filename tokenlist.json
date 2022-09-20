@@ -1,4 +1,5 @@
 {
+    "Comment": "// This was cloned from https://github.com/trustwallet/assets/blob/master/blockchains/binance/tokenlist.json, but changed accordingly for newer logoURI.",
     "name": "Trust Wallet: BNB",
     "logoURI": "https://trustwallet.com/assets/images/favicon.png",
     "timestamp": "2022-08-22T01:37:41.466620",
@@ -10,559 +11,7 @@
             "name": "BNB Beacon Chain",
             "symbol": "BNB",
             "decimals": 8,
-            "logoURI": "https://assets-cdn.trustwallet.com/blockchains/binance/info/logo.png",
-            "pairs": [
-                {
-                    "base": "c714_tAERGO-46B",
-                    "lotSize": "1000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tANKR-E97",
-                    "lotSize": "1000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tARPA-575",
-                    "lotSize": "1000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tART-3C9",
-                    "lotSize": "100000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tATP-38C",
-                    "lotSize": "10000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tAVA-645",
-                    "lotSize": "100000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tAWC-986",
-                    "lotSize": "1000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tAXPR-777",
-                    "lotSize": "10000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tBCH-1FD",
-                    "lotSize": "1000000",
-                    "tickSize": "100"
-                },
-                {
-                    "base": "c714_tBCPT-95A",
-                    "lotSize": "100000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tBEAR-14C",
-                    "lotSize": "100000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tBET-844",
-                    "lotSize": "10000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tBKBT-3A6",
-                    "lotSize": "100000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tBLINK-9C6",
-                    "lotSize": "1000000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tBOLT-4C6",
-                    "lotSize": "100000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tBST2-2F2",
-                    "lotSize": "100000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tBTTB-D31",
-                    "lotSize": "100000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tBULL-BE4",
-                    "lotSize": "10000",
-                    "tickSize": "10000"
-                },
-                {
-                    "base": "c714_tBZNT-464",
-                    "lotSize": "1000000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tCAN-677",
-                    "lotSize": "10000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tCAS-167",
-                    "lotSize": "10000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tCBIX-3C9",
-                    "lotSize": "100000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tCBM-4B2",
-                    "lotSize": "10000000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tCHZ-ECD",
-                    "lotSize": "1000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tCNNS-E16",
-                    "lotSize": "10000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tCOS-2E4",
-                    "lotSize": "10000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tCOTI-CBB",
-                    "lotSize": "1000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tCOVA-218",
-                    "lotSize": "100000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tCRPT-8C9",
-                    "lotSize": "10000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tCSM-734",
-                    "lotSize": "1000000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tDEFI-FA5",
-                    "lotSize": "1000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tDOS-120",
-                    "lotSize": "100000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tDREP-7D2",
-                    "lotSize": "100000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tDUSK-45E",
-                    "lotSize": "1000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tEBST-783",
-                    "lotSize": "10000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tENTRP-C8D",
-                    "lotSize": "10000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tEOSBEAR-721",
-                    "lotSize": "100000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tEOSBULL-F0D",
-                    "lotSize": "100000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tEQL-586",
-                    "lotSize": "100000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tERD-D06",
-                    "lotSize": "1000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tETHBEAR-B2B",
-                    "lotSize": "1000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tETHBULL-D33",
-                    "lotSize": "100000",
-                    "tickSize": "1000"
-                },
-                {
-                    "base": "c714_tEVT-49B",
-                    "lotSize": "1000000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tFRM-DE7",
-                    "lotSize": "10000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tFSN-E14",
-                    "lotSize": "1000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tFTM-A64",
-                    "lotSize": "100000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tGIV-94E",
-                    "lotSize": "1000000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tGMAT-FC8",
-                    "lotSize": "100000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tGTO-908",
-                    "lotSize": "10000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tHNST-3C9",
-                    "lotSize": "10000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tHYN-F21",
-                    "lotSize": "1000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tIRIS-D88",
-                    "lotSize": "10000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tKAT-7BB",
-                    "lotSize": "100000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tLBA-340",
-                    "lotSize": "100000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tLIT-099",
-                    "lotSize": "10000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tLOKI-6A9",
-                    "lotSize": "1000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tLTC-F07",
-                    "lotSize": "1000000",
-                    "tickSize": "100"
-                },
-                {
-                    "base": "c714_tLTO-BDF",
-                    "lotSize": "1000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tMATIC-84A",
-                    "lotSize": "100000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tMDAB-D42",
-                    "lotSize": "100000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tMEETONE-031",
-                    "lotSize": "100000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tMITH-C76",
-                    "lotSize": "10000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tMITX-CAA",
-                    "lotSize": "10000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tMTV-4C6",
-                    "lotSize": "100000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tMVL-7B0",
-                    "lotSize": "10000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tMZK-2C7",
-                    "lotSize": "10000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tNEW-09E",
-                    "lotSize": "100000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tNEXO-A84",
-                    "lotSize": "100000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tNOIZB-878",
-                    "lotSize": "10000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tNOW-E68",
-                    "lotSize": "1000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tNPXB-1E8",
-                    "lotSize": "1000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tNPXSXEM-89C",
-                    "lotSize": "1000000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tONE-5F9",
-                    "lotSize": "1000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tONT-33D",
-                    "lotSize": "1000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tPHB-2DF",
-                    "lotSize": "100000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tPHV-4A1",
-                    "lotSize": "100000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tPIBNB-43C",
-                    "lotSize": "10000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tPLG-D8D",
-                    "lotSize": "1000000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tPVT-554",
-                    "lotSize": "10000000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tPYN-C37",
-                    "lotSize": "1000000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tQBX-38C",
-                    "lotSize": "10000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tRAVEN-F66",
-                    "lotSize": "1000000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tRUNE-B1A",
-                    "lotSize": "100000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tSHR-DB6",
-                    "lotSize": "10000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tSLV-986",
-                    "lotSize": "1000000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tSPNDB-916",
-                    "lotSize": "100000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tSTYL-65B",
-                    "lotSize": "100000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tSWIPE.B-DC0",
-                    "lotSize": "10000000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tTM2-0C4",
-                    "lotSize": "1000000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tTOMOB-4BC",
-                    "lotSize": "100000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tTOP-491",
-                    "lotSize": "100000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tTROY-9B8",
-                    "lotSize": "10000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tTRUE-D84",
-                    "lotSize": "100000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tTRXB-2E6",
-                    "lotSize": "1000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tTWT-8C2",
-                    "lotSize": "100000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tUGAS-B0C",
-                    "lotSize": "100000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tUND-EBC",
-                    "lotSize": "10000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tUPX-F3E",
-                    "lotSize": "1000000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tVDX-A17",
-                    "lotSize": "1000000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tVIDT-F53",
-                    "lotSize": "100000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tVOTE-FD4",
-                    "lotSize": "100000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tWICC-01D",
-                    "lotSize": "1000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tWINB-41F",
-                    "lotSize": "1000000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tWISH-2D5",
-                    "lotSize": "10000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tWRX-ED1",
-                    "lotSize": "1000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tXBASE-CD2",
-                    "lotSize": "100000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tXRP-BF2",
-                    "lotSize": "100000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tXRPBEAR-00B",
-                    "lotSize": "10000000",
-                    "tickSize": "10"
-                },
-                {
-                    "base": "c714_tXRPBULL-E7C",
-                    "lotSize": "10000000",
-                    "tickSize": "10"
-                },
-                {
-                    "base": "c714_tZEBI-84F",
-                    "lotSize": "100000000000",
-                    "tickSize": "1"
-                }
-            ]
+            "logoURI": "https://assets-cdn.trustwallet.com/blockchains/binance/info/logo.png"
         },
         {
             "asset": "c714_tBUSD-BD1",
@@ -571,149 +20,7 @@
             "name": "Binance USD",
             "symbol": "BUSD",
             "decimals": 8,
-            "logoURI": "https://assets-cdn.trustwallet.com/blockchains/binance/assets/BUSD-BD1/logo.png",
-            "pairs": [
-                {
-                    "base": "c714",
-                    "lotSize": "100000",
-                    "tickSize": "100000"
-                },
-                {
-                    "base": "c714_tADA-9F4",
-                    "lotSize": "100000000",
-                    "tickSize": "100"
-                },
-                {
-                    "base": "c714_tATOM-596",
-                    "lotSize": "10000000",
-                    "tickSize": "10000"
-                },
-                {
-                    "base": "c714_tAVA-645",
-                    "lotSize": "100000000",
-                    "tickSize": "100"
-                },
-                {
-                    "base": "c714_tBAKE-5E0",
-                    "lotSize": "1000000000",
-                    "tickSize": "100"
-                },
-                {
-                    "base": "c714_tBAND-34B",
-                    "lotSize": "100000000",
-                    "tickSize": "1000"
-                },
-                {
-                    "base": "c714_tBCH-1FD",
-                    "lotSize": "1000000",
-                    "tickSize": "100000"
-                },
-                {
-                    "base": "c714_tBIFI-290",
-                    "lotSize": "100000",
-                    "tickSize": "100000"
-                },
-                {
-                    "base": "c714_tBTCB-1DE",
-                    "lotSize": "10000",
-                    "tickSize": "10000000"
-                },
-                {
-                    "base": "c714_tBURGER-33A",
-                    "lotSize": "100000000",
-                    "tickSize": "1000"
-                },
-                {
-                    "base": "c714_tCAKE-435",
-                    "lotSize": "10000000",
-                    "tickSize": "1000"
-                },
-                {
-                    "base": "c714_tDOGE-B67",
-                    "lotSize": "1000000000",
-                    "tickSize": "10"
-                },
-                {
-                    "base": "c714_tDOT-64C",
-                    "lotSize": "10000000",
-                    "tickSize": "1000"
-                },
-                {
-                    "base": "c714_tEOS-CDD",
-                    "lotSize": "100000000",
-                    "tickSize": "1000"
-                },
-                {
-                    "base": "c714_tETH-1C9",
-                    "lotSize": "100000",
-                    "tickSize": "1000000"
-                },
-                {
-                    "base": "c714_tFRM-DE7",
-                    "lotSize": "10000000000",
-                    "tickSize": "10"
-                },
-                {
-                    "base": "c714_tINJ-FAE",
-                    "lotSize": "100000000",
-                    "tickSize": "1000"
-                },
-                {
-                    "base": "c714_tLTC-F07",
-                    "lotSize": "1000000",
-                    "tickSize": "10000"
-                },
-                {
-                    "base": "c714_tONT-33D",
-                    "lotSize": "1000000000",
-                    "tickSize": "100"
-                },
-                {
-                    "base": "c714_tRUNE-B1A",
-                    "lotSize": "100000000",
-                    "tickSize": "1000"
-                },
-                {
-                    "base": "c714_tSHR-DB6",
-                    "lotSize": "10000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tSWINGBY-888",
-                    "lotSize": "10000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tSXP-CCC",
-                    "lotSize": "100000000",
-                    "tickSize": "100"
-                },
-                {
-                    "base": "c714_tXRP-BF2",
-                    "lotSize": "100000000",
-                    "tickSize": "100"
-                },
-                {
-                    "base": "c714_tXTZ-F7A",
-                    "lotSize": "100000000",
-                    "tickSize": "1000"
-                },
-                {
-                    "base": "c714_tXVS-795",
-                    "lotSize": "10000000",
-                    "tickSize": "1000"
-                },
-                {
-                    "base": "c714_tYFII-061",
-                    "lotSize": "100000",
-                    "tickSize": "1000000"
-                },
-                {
-                    "base": "c714_tZEC-93E",
-                    "lotSize": "1000000",
-                    "tickSize": "10000"
-                }
-            ]
+            "logoURI": "https://assets-cdn.trustwallet.com/blockchains/binance/assets/BUSD-BD1/logo.png"
         },
         {
             "asset": "c714_tUSDSB-1AC",
@@ -722,34 +29,7 @@
             "name": "USDS",
             "symbol": "USDSB",
             "decimals": 8,
-            "logoURI": "https://assets-cdn.trustwallet.com/blockchains/binance/assets/USDSB-1AC/logo.png",
-            "pairs": [
-                {
-                    "base": "c714",
-                    "lotSize": "100000",
-                    "tickSize": "100000"
-                },
-                {
-                    "base": "c714_tBTCB-1DE",
-                    "lotSize": "10000",
-                    "tickSize": "10000000"
-                },
-                {
-                    "base": "c714_tCOS-2E4",
-                    "lotSize": "10000000000",
-                    "tickSize": "10"
-                },
-                {
-                    "base": "c714_tONE-5F9",
-                    "lotSize": "1000000000",
-                    "tickSize": "10"
-                },
-                {
-                    "base": "c714_tUND-EBC",
-                    "lotSize": "10000000000",
-                    "tickSize": "10"
-                }
-            ]
+            "logoURI": "https://assets-cdn.trustwallet.com/blockchains/binance/assets/USDSB-1AC/logo.png"
         },
         {
             "asset": "c714_tBTCB-1DE",
@@ -758,29 +38,7 @@
             "name": "Bitcoin BEP2",
             "symbol": "BTC",
             "decimals": 8,
-            "logoURI": "https://assets-cdn.trustwallet.com/blockchains/binance/assets/BTCB-1DE/logo.png",
-            "pairs": [
-                {
-                    "base": "c714",
-                    "lotSize": "100000",
-                    "tickSize": "10"
-                },
-                {
-                    "base": "c714_tANKR-E97",
-                    "lotSize": "1000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tBOLT-4C6",
-                    "lotSize": "100000000000",
-                    "tickSize": "1"
-                },
-                {
-                    "base": "c714_tCOS-2E4",
-                    "lotSize": "10000000000",
-                    "tickSize": "1"
-                }
-            ]
+            "logoURI": "https://assets-cdn.trustwallet.com/blockchains/binance/assets/BTCB-1DE/logo.png"
         },
         {
             "asset": "c714_tTUSDB-888",
@@ -789,24 +47,7 @@
             "name": "TrueUSD",
             "symbol": "TUSDB",
             "decimals": 8,
-            "logoURI": "https://assets-cdn.trustwallet.com/blockchains/binance/assets/TUSDB-888/logo.png",
-            "pairs": [
-                {
-                    "base": "c714",
-                    "lotSize": "100000",
-                    "tickSize": "100000"
-                },
-                {
-                    "base": "c714_tBTCB-1DE",
-                    "lotSize": "10000",
-                    "tickSize": "10000000"
-                },
-                {
-                    "base": "c714_tLTC-F07",
-                    "lotSize": "1000000",
-                    "tickSize": "10000"
-                }
-            ]
+            "logoURI": "https://assets-cdn.trustwallet.com/blockchains/binance/assets/TUSDB-888/logo.png"
         },
         {
             "asset": "c714_tIDRTB-178",
@@ -815,19 +56,7 @@
             "name": "Rupiah Token",
             "symbol": "IDRTB",
             "decimals": 8,
-            "logoURI": "https://assets-cdn.trustwallet.com/blockchains/binance/assets/IDRTB-178/logo.png",
-            "pairs": [
-                {
-                    "base": "c714",
-                    "lotSize": "100000",
-                    "tickSize": "1000000000"
-                },
-                {
-                    "base": "c714_tBUSD-BD1",
-                    "lotSize": "100000000",
-                    "tickSize": "10000000"
-                }
-            ]
+            "logoURI": "https://assets-cdn.trustwallet.com/blockchains/binance/assets/IDRTB-178/logo.png"
         },
         {
             "asset": "c714_tUSDT-6D8",
@@ -836,19 +65,7 @@
             "name": "USDTBEP2",
             "symbol": "USDT",
             "decimals": 8,
-            "logoURI": "https://assets-cdn.trustwallet.com/blockchains/binance/assets/USDT-6D8/logo.png",
-            "pairs": [
-                {
-                    "base": "c714",
-                    "lotSize": "100000",
-                    "tickSize": "100000"
-                },
-                {
-                    "base": "c714_tBUSD-BD1",
-                    "lotSize": "100000000",
-                    "tickSize": "100"
-                }
-            ]
+            "logoURI": "https://assets-cdn.trustwallet.com/blockchains/binance/assets/USDT-6D8/logo.png"
         },
         {
             "asset": "c714_tDAI-D75",
@@ -857,14 +74,7 @@
             "name": "DaiBEP2",
             "symbol": "DAI",
             "decimals": 8,
-            "logoURI": "https://assets-cdn.trustwallet.com/blockchains/binance/assets/DAI-D75/logo.png",
-            "pairs": [
-                {
-                    "base": "c714_tBUSD-BD1",
-                    "lotSize": "100000000",
-                    "tickSize": "1000"
-                }
-            ]
+            "logoURI": "https://assets-cdn.trustwallet.com/blockchains/binance/assets/DAI-D75/logo.png"
         },
         {
             "asset": "c714_tETH-1C9",
@@ -873,14 +83,7 @@
             "name": "ETH BEP2",
             "symbol": "ETH",
             "decimals": 8,
-            "logoURI": "https://assets-cdn.trustwallet.com/blockchains/binance/assets/ETH-1C9/logo.png",
-            "pairs": [
-                {
-                    "base": "c714",
-                    "lotSize": "100000",
-                    "tickSize": "100"
-                }
-            ]
+            "logoURI": "https://assets-cdn.trustwallet.com/blockchains/binance/assets/ETH-1C9/logo.png"
         },
         {
             "asset": "c714_tTAUDB-888",
@@ -889,14 +92,7 @@
             "name": "TrueAUD",
             "symbol": "TAUDB",
             "decimals": 8,
-            "logoURI": "https://assets-cdn.trustwallet.com/blockchains/binance/assets/TAUDB-888/logo.png",
-            "pairs": [
-                {
-                    "base": "c714",
-                    "lotSize": "100000",
-                    "tickSize": "1000000"
-                }
-            ]
+            "logoURI": "https://assets-cdn.trustwallet.com/blockchains/binance/assets/TAUDB-888/logo.png"
         },
         {
             "asset": "c714_tTHKDB-888",
@@ -905,14 +101,7 @@
             "name": "TrueHKD",
             "symbol": "THKDB",
             "decimals": 8,
-            "logoURI": "https://assets-cdn.trustwallet.com/blockchains/binance/assets/THKDB-888/logo.png",
-            "pairs": [
-                {
-                    "base": "c714",
-                    "lotSize": "100000",
-                    "tickSize": "1000000"
-                }
-            ]
+            "logoURI": "https://assets-cdn.trustwallet.com/blockchains/binance/assets/THKDB-888/logo.png"
         },
         {
             "asset": "c714_tADA-9F4",
