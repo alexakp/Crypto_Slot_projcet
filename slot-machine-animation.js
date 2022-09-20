@@ -5,16 +5,21 @@
   ];
   const doors = document.querySelectorAll('.door');
   let balance_usd = 1000;
-  let bet_size = 100; // 1 5 10 50 100 200 500 1000, groups
+  let bet_size_id = 0; // 1 5 10 50 100 200 500 1000, groups
+  let bet_size_group = [1,5,10,20,50,100,200,500,1000]
+  console.log('------------------')
 
   document.querySelector('#spinner').addEventListener('click', spin);
+  document.querySelector('#decrease_bet_size').addEventListener('click', decrease_bet);
+  document.getElementById("decrease_bet_size").disabled = true;
+  document.querySelector('#increase_bet_size').addEventListener('click', increase_bet);
 
   function init(firstInit = true, groups = 1, duration = 2) {
   const arrBoxes = []
 
-  let balance = document.getElementById("balance");
-  balance_text = balance.textContent;
   document.getElementById("balance").textContent = "Balance: " + balance_usd +"$";
+
+  document.getElementById("betsize").textContent = "Bet size: " + bet_size_group[bet_size_id] +"$";
 
     for (const door of doors) {
 
@@ -90,15 +95,48 @@
     if (!firstInit){
       three_bool = three_in_a_row(arrBoxes)
       if (three_bool){
-        balance_usd = balance_usd + 1000;
-        console.log("THREE IN A ROW EZ")
+        //balance_usd = balance_usd + 1000;
+        console.log("THREE IN a  ROW EZ")
       }
+    }
+  }
+
+  async function decrease_bet(){
+    if(bet_size_id > 0){
+      bet_size_id--;
+      document.getElementById("increase_bet_size").disabled = false;
+      if(bet_size_id == 0){
+        document.getElementById("decrease_bet_size").disabled = true;
+      }
+    }
+    document.getElementById("betsize").textContent = "Bet size: " + bet_size_group[bet_size_id] +"$";
+    check_balance()
+  }
+
+  async function increase_bet(){
+    if(bet_size_id < bet_size_group.length - 1){
+      bet_size_id++;
+      document.getElementById("decrease_bet_size").disabled = false;
+      if(bet_size_id == bet_size_group.length - 1){
+        document.getElementById("increase_bet_size").disabled = true;
+      }
+    }
+    document.getElementById("betsize").textContent = "Bet size: " + bet_size_group[bet_size_id] +"$";
+    check_balance()
+  }
+
+  async function check_balance(){
+    if(balance_usd < bet_size_group[bet_size_id]){
+      document.getElementById("spinner").disabled = true;
+    }
+    else if(balance_usd >= bet_size_group[bet_size_id]){
+      document.getElementById("spinner").disabled = false;
     }
   }
 
   async function spin() {
     // update balance_usd
-    balance_usd = balance_usd - bet_size
+    balance_usd = balance_usd - bet_size_group[bet_size_id]
 
     document.getElementById("spinner").disabled = true;
     
@@ -111,11 +149,10 @@
       await new Promise((resolve) => setTimeout(resolve, duration * 100));
     }
     await sleep(2200);
-    balance_text = balance.textContent;
     document.getElementById("balance").textContent = "Balance: " + balance_usd +"$";
 
     // Bet size needs to be smaller than balance
-    if(balance_usd >= bet_size){
+    if(balance_usd >= bet_size_group[bet_size_id]){
       document.getElementById("spinner").disabled = false;
     }
   }
@@ -139,6 +176,5 @@
       }
           return "Array is Undefined";
   }
-  init();
+ init();
 })();
-

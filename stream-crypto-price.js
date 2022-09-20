@@ -1,5 +1,3 @@
-
-
 const run = async () => {
 
   // change ticker/symbol for other crypto pairs availbe at binance, updates every 1000 ms
