@@ -97,8 +97,10 @@
       if (three_bool){
         balance_usd = balance_usd + 4 * bet_size_group[bet_size_id];
         console.log("THREE IN a  ROW EZ")
+        return 1
       }
     }
+    return 0
   }
 
   async function decrease_bet(){
@@ -136,11 +138,11 @@
 
   async function spin() {
     // update balance_usd
-    balance_usd = balance_usd - bet_size_group[bet_size_id]
+    balance_usd = balance_usd - bet_size_group[bet_size_id];
 
     document.getElementById("spinner").disabled = true;
     
-    init(false, 1, 2);
+    let is_win = init(false, 1, 2);
     
     for (const door of doors) {
       const boxes = door.querySelector('.boxes');
@@ -149,6 +151,11 @@
       await new Promise((resolve) => setTimeout(resolve, duration * 100));
     }
     await sleep(2200);
+    if(is_win){
+      let win_sound = new Audio("jackpot_sound.mp3")
+      win_sound.volume = 0.2
+      win_sound.play()
+    }
     document.getElementById("balance").textContent = "Balance: " + balance_usd +"$";
 
     // Bet size needs to be smaller than balance
