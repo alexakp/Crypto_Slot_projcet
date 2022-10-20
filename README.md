@@ -22,7 +22,7 @@ Used for animation and updating color on crypto pairs on 24 hour change. Last 24
 ## SLOT-part
 
 - [ ] Make symbol array larger and randomzie not equal chance: **Medium**
-- [ ] Display win on screen / sound when 3 equal symbols: **Medium** 
+- [ ] Display win on screen (Sound Done): **Easy** 
 - [ ] Add custom symbols: **Medium/Hard**
 - [ ] Make from 3 to --> 5 reels: **Easy**
 - [ ] Add bonus gamemode etc: **Hard**
