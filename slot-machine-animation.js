@@ -95,7 +95,7 @@
     if (!firstInit){
       three_bool = three_in_a_row(arrBoxes)
       if (three_bool){
-        balance_usd = balance_usd + 4 * bet_size_group[bet_size_id]; // controls payout
+        balance_usd = balance_usd + 4 * bet_size_group[bet_size_id]; // controls payout2
         console.log("THREE IN a  ROW EZ")
         return 1
       }
