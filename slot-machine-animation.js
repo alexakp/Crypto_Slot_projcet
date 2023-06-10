@@ -95,7 +95,7 @@
     if (!firstInit){
       three_bool = three_in_a_row(arrBoxes)
       if (three_bool){
-        balance_usd = balance_usd + 4 * bet_size_group[bet_size_id];
+        balance_usd = balance_usd + 2 * bet_size_group[bet_size_id]; // controls payout
         console.log("THREE IN a  ROW EZ")
         return 1
       }
@@ -119,7 +119,7 @@
     if(bet_size_id < bet_size_group.length - 1){
       bet_size_id++;
       document.getElementById("decrease_bet_size").disabled = false;
-      if(bet_size_id == bet_size_group.length - 1){
+      if(bet_size_id == bet_size_group.length - 1 || balance_usd < bet_size_group[bet_size_id+1]){
         document.getElementById("increase_bet_size").disabled = true;
       }
     }
