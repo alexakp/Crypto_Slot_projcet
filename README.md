@@ -1,4 +1,10 @@
+[![NPM Downloads](https://img.shields.io/npm/dw/npm?logo=npm)](https://docs.npmjs.com/)
+
 ## INFO 
+After cloning the repo run
+```
+npm install
+```
 
 ### HTML 
 Refrence CSS and Javascript files here.
@@ -13,6 +19,8 @@ Used for animation and updating color on crypto pairs on 24 hour change. Last 24
 
 # TODO 
 
+Refactor galore.
+- [ ] Move things out from html so zooming in and adjusts correct. Objects that don't scale corret are but not limited to crypto icons, emojis inside doors, content inside table, bet size and balance etc.
 
 ## Crypto streaming part
 
