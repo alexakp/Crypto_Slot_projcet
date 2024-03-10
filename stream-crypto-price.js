@@ -5,18 +5,7 @@ const run = async () => {
 
   let streams2 = await fetchText();
 
-  // https://binance-docs.github.io/apidocs/spot/en/#all-market-rolling-window-statistics-streams
-  //let ws = new WebSocket("wss://stream.binance.com:9443/ws/" + streams.join('/'));
   let ws = new WebSocket("wss://stream.binance.com:9443/ws/" + streams2.join('@ticker/')+"@ticker");
-
-  // let ws2 = new WebSocket("wss://stream.binance.com:9443/ws/" + "!ticker@arr");
-
-
-
-  
-  // loop through stream list and add ticker name (cell1) make cell2 and 3 empty
-  // while waiting for info from binance/ws
-    
 
     async function fetchText() {
 
